@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap');
+
 
 *{
     margin:0;
@@ -65,18 +66,20 @@ header p{
 }
 
 .play{
-    padding-left: 30px;
+    padding-left: 70px;
+    padding-right: 60px;
     background: url("images/playFigma.svg") no-repeat;
-    background-position-x: 10px;
+    background-position-x: 50px;
     background-position-y: center;
     background-size: 11px;
 
 }
 
 .play:hover{
-    padding-left: 30px;
+    padding-left: 70px;
+    padding-right: 60px;
     background: url("images/PlayBlack.svg") no-repeat;
-    background-position-x: 10px;
+    background-position-x: 50px;
     background-position-y: center;
     background-size: 11px;
     background-color: #fff;
@@ -127,4 +130,38 @@ main{
 footer{
     clear: both;
     margin-left: 3em;
+}
+
+.card{
+    flex: 0 0 auto;
+    /*border: solid 1px white;*/
+    border-radius: 30px;
+    background-color: #000000;
+    width: 23.5%;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+   
+}
+
+.card:hover{
+     box-shadow: 0.5px 0.5px 15px white;
+}
+
+div.card img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card p, .card h4{
+    margin: 0.85em;
+    font-size: 13px;
+}
+
+
+.episodes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
